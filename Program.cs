@@ -1,5 +1,6 @@
 ﻿using System;
 using Ejercicio2;
+using Ejercicio3;
 using Ejercisio1;
 
 namespace MiNamespace
@@ -11,6 +12,7 @@ namespace MiNamespace
             Console.WriteLine("Ingrese la opcion del ejercicio de a G7.2 que quiera ejecutar.\n" +
             "Opcion 1: Condicion de alumno.\n" +
             "Opcion 2: Tipo numero(Nulo, Positivo,Negativo).\n" +
+            "Opcion 3: Listado ordenada de alumnos.\n" +
             "Opcion 0:Para terminar la ejecucion.\n" +
             ("<=========================================>"));
 
@@ -23,6 +25,9 @@ namespace MiNamespace
                     break;
                 case 2:
                     var tipoNumero = new NumeroTipo();
+                    break;
+                 case 3:
+                    var listadoAlumno = new ListadoNotas();
                     break;
                 case 0:
                     Console.WriteLine("Terminando ejecución.");
