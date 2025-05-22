@@ -1,4 +1,5 @@
 ﻿using System;
+using Ejercicio2;
 using Ejercisio1;
 
 namespace MiNamespace
@@ -9,7 +10,8 @@ namespace MiNamespace
         {
             Console.WriteLine("Ingrese la opcion del ejercicio de a G7.2 que quiera ejecutar.\n" +
             "Opcion 1: Condicion de alumno.\n" +
-            "Opcion 0:Para terminar la ejecucion.\n"+
+            "Opcion 2: Tipo numero(Nulo, Positivo,Negativo).\n" +
+            "Opcion 0:Para terminar la ejecucion.\n" +
             ("<=========================================>"));
 
             int opcion = Convert.ToInt32(Console.ReadLine());
@@ -17,14 +19,17 @@ namespace MiNamespace
             switch (opcion)
             {
                 case 1:
-                var alumnos = new Alumnos();
-                break;
+                    var alumnos = new Alumnos();
+                    break;
+                case 2:
+                    var tipoNumero = new NumeroTipo();
+                    break;
                 case 0:
-                Console.WriteLine("Terminando ejecución.");
-                break;
+                    Console.WriteLine("Terminando ejecución.");
+                    break;
                 default:
-                Console.WriteLine("Opción no válida.");
-                break;
+                    Console.WriteLine("Opción no válida.");
+                    break;
             }
         }
     }
