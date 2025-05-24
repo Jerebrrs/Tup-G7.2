@@ -1,4 +1,4 @@
-namespace Ejercisio1
+namespace guia7
 {
     public class Alumnos
     {

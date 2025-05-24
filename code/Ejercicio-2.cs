@@ -1,4 +1,4 @@
-namespace Ejercicio2
+namespace guia7
 {
     public class NumeroTipo
     {

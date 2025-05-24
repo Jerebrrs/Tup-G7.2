@@ -1,4 +1,4 @@
-namespace Ejercicio3
+namespace guia7
 {
     public class ListadoNotas
     {
@@ -57,7 +57,7 @@ namespace Ejercicio3
                 }
                 else
                 {
-                 Console.WriteLine($"El orden es : {libreta2} , {libreta1} , {libreta3} .");
+                 Console.WriteLine($"El orden es : Alumna {nombre2} libreta {libreta2} ,Alumna {nombre1} {libreta1} ,Alumna {nombre3} {libreta3} .");
  
                 }
             }
