@@ -16,6 +16,7 @@ namespace guia7
                                   "Opcion 2: Tipo numero (Nulo, Positivo, Negativo).\n" +
                                   "Opcion 3: Listado ordenado de alumnos.\n" +
                                   "Opcion 4: Numero menor.\n" +
+                                  "Opcion 5: Tenis.\n" +
                                   "Opcion 0: Para terminar la ejecucion.\n" +
                                   "<=========================================>");
 
@@ -34,6 +35,9 @@ namespace guia7
                         break;
                     case 4:
                         NumeroMenor numeroMenor = new NumeroMenor();
+                        break;
+                    case 5:
+                        Tenis tenis = new Tenis();
                         break;
                     case 0:
                         Console.WriteLine("Terminando ejecución.");
